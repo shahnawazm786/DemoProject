@@ -1,5 +1,6 @@
 package interfaces;
 
-public class IExample {
-
+public interface IExample {
+void click();
+void sendText();
 }
