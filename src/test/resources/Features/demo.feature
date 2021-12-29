@@ -16,4 +16,5 @@ Feature: Add Item into the cart
     And "<step>" missed "<out>"
     Examples:
     |step|out|
+    
     |a|b|
