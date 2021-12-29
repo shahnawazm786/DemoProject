@@ -14,6 +14,7 @@ public class DemoInterface implements IExample{
 
 	public void sendText() {
 		// TODO Auto-generated method stub
+		System.out.println("Hello");
 		
 	}
 
