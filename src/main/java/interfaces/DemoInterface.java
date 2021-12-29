@@ -20,7 +20,7 @@ public class DemoInterface implements IExample{
 
 	public void waitForLoadTheElement() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Hello git hub");
 	}
 
 	public void waitToAppearElement() {
