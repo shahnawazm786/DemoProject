@@ -17,4 +17,14 @@ public class DemoInterface implements IExample{
 		
 	}
 
+	public void waitForLoadTheElement() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void waitToAppearElement() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
