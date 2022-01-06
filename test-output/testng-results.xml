@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-06T14:06:32Z" name="Default suite" finished-at="2022-01-06T14:06:34Z" duration-ms="2663">
+    <groups>
+    </groups>
+    <test started-at="2022-01-06T14:06:32Z" name="Default test" finished-at="2022-01-06T14:06:34Z" duration-ms="2663">
+      <class name="testcase.AccountTest">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:testcase.AccountTest@3e8c3cb]" started-at="2022-01-06T19:36:23Z" name="intialize" finished-at="2022-01-06T19:36:32Z" duration-ms="8622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="createAccount()[pri:0, instance:testcase.AccountTest@3e8c3cb]" started-at="2022-01-06T19:36:32Z" name="createAccount" finished-at="2022-01-06T19:36:34Z" duration-ms="2624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="release()[pri:0, instance:testcase.AccountTest@3e8c3cb]" started-at="2022-01-06T19:36:34Z" name="release" finished-at="2022-01-06T19:36:35Z" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- release -->
+      </class> <!-- testcase.AccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
