@@ -16,7 +16,8 @@ public class AskToHomeRegisterPage implements IPageElements {
 	By txtUserName=By.id(regUserName);
 	By txtEmail=By.id(regEmailAddress);
 	By txtPassword=By.id(regPassword);
-	By btnRegister=By.id(regRegistered);
+	//By btnRegister=By.id(regRegistered);
+	By btnRegister=By.xpath(regRegistered);
 	By clickAccount=By.xpath(linkAccount);
 	// Method declaration
 	
