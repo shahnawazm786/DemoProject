@@ -27,8 +27,8 @@ public class BaseTestCase {
 	@AfterSuite
 	public void release() throws Exception{
 		//Thread.sleep(3000);
-		BaseTestCase.driver.close();
-		//BaseTestCase.driver.quit();
+		//BaseTestCase.driver.close();
+		BaseTestCase.driver.quit();
 	}
 
 }
