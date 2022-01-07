@@ -18,12 +18,21 @@ public class ExceptionClassDemo1 {
 		}
 	}
 	
+public static void ThrowsExample() {
+	int a=100,b=0,c;
+	if(b==0) {
+		throw new ArithmeticException("B is zero");
+	}
+}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Try catch example");
 		Waits();
 		System.out.println("After 3 seconds - message displayed");
-		NumberDivideByZeroException();
+		//NumberDivideByZeroException();
+		ThrowsExample();
 	}
+	
 	
 }
