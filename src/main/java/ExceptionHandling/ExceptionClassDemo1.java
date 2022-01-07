@@ -37,9 +37,12 @@ public class ExceptionClassDemo1 {
 		bw.close();
 
 	}
-	public static void ThrowCheckedException() {
+	/*public static void ThrowCheckedException() {
+		int a=100;
+		if(a==100) 
+			throw new IOException("Checked Exception");
 		
-	}
+	}*/
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
