@@ -14,10 +14,14 @@ public class ExceptionsDemo {
 		System.out.println("Line 14");
 		System.out.println("Line 15");
 		String name=null;
-		System.out.println(name.length());
+		System.out.println(name.length()); // line 17 occured Exception 
 		System.out.println("Line 18");
 		System.out.println("Line 19");
 
 	}
+	// Type of Exception in Java
+	// Checked Exception -> Compile time error
+	// Unchecked Exception -> Runtime 
+	// Error -> Compile time 
 
 }
