@@ -23,12 +23,31 @@ public class CheckedExceptionHanlding {
 		}
 	}
 	
+	public static void uncheckedExceptionTryCatch() {
+		int a=100,b=0,c;
+		try {
+			c=a/b;
+			System.out.println(c);
+		}catch(ArithmeticException ae) {
+			System.out.println(a/5);
+			//ae.printStackTrace();
+		}
+	}
+	
+	public static void uncheckedExceptionTrhows() throws ArithmeticException {
+		int a=100,b=0,c;
+		c=a/b;
+		System.out.println(c);
+	}
+	
 	public static void main(String[] args) 
 	{
 	//throws IOException {
 		// TODO Auto-generated method stub
 		//chekcedException();
 		tryCatchException();
+		uncheckedExceptionTryCatch();
+		uncheckedExceptionTrhows();
 	}
 
 }
