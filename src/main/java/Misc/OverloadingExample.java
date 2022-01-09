@@ -1,6 +1,6 @@
 package Misc;
 
-public class RuntimePolyMorph {
+public class OverloadingExample {
 	// polymorphism is concept to allow language to create more than one method 
 	// parameters
 	// attribute of the parameters
