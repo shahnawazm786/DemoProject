@@ -15,8 +15,8 @@ public class OverridingDemo {
 		bc.message(); // in the class message() method is overriding
 		FinalAttibuteClass fin=new FinalAttibuteClass();
 		fin.add();
-		DemoFinalAttribute fi=new DemoFinalAttribute();
-		fi.add();
+		//DemoFinalAttribute fi=new DemoFinalAttribute();
+		//fi.add();
 		FinalAttibuteClass fa=new FinalAttibuteClass();
 		fa.add();
 	}
