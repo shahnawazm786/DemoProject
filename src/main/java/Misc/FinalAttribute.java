@@ -29,9 +29,10 @@ final class FinalAttibuteClass{
 		System.out.println("Add method()");
 	}
 }
-class DemoFinalAttribute extends FinalAttribute
+// final class can't be extended
+/*class DemoFinalAttribute extends FinalAttibuteClass
 {
 	public void add() {
 		System.out.println("Add method() in DemoFinalAttribute");
 	}
-}
+}*/
