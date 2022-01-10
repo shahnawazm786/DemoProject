@@ -6,4 +6,6 @@ void sendText();
 void waitForLoadTheElement();
 void waitToAppearElement();
 void waitToClickableElement();
+void waitToPresentElement();
+void waitPresentAlert();
 }
