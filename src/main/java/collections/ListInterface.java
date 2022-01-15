@@ -75,5 +75,20 @@ public class ListInterface {
 			System.out.println(itr.next());
 		}
 		
+		Stack<String> stack=new Stack<String>();
+		stack.push("One");
+		stack.push("Two");
+		stack.push("Three");
+		stack.push("Four");
+		stack.push("Five");
+		Iterator itr1=stack.iterator();
+		while(itr1.hasNext()) {
+			System.out.println(itr1.next());
+		}
+		
+		
+		
+		
+		
 	}
 }
