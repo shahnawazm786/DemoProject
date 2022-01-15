@@ -18,6 +18,7 @@ public class ListInterface {
 		linedHashSetExample();
 		mapExample();
 		hashMapExample();
+		liknedHashMapExample();
 
 	}
 	public static void arrayListExample() {
@@ -195,5 +196,23 @@ public class ListInterface {
 		}
 	}
 
+	public static void liknedHashMapExample() {
+		Map<String, Integer> map = new LinkedHashMap<String,Integer>();
+
+		// Inserting pair entries in above Map
+		// using put() method
+		map.put("vishal", 10);
+		map.put("sachin", 30);
+		map.put("vaibhav", 20);
+
+		// Iterating over Map
+		for (Map.Entry<String, Integer> e : map.entrySet())
+		{
+			// Printing ket-value pairs
+			System.out.println(e.getKey() + " "
+					+ e.getValue());
+		}
+	}
 }
+
 
