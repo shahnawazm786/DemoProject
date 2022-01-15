@@ -17,6 +17,7 @@ public class ListInterface {
 		hashSetExample();
 		linedHashSetExample();
 		mapExample();
+		hashMapExample();
 
 	}
 	public static void arrayListExample() {
@@ -134,7 +135,7 @@ public class ListInterface {
 		//Traversing elements  
 		Iterator<String> itr=set.iterator();  
 		while(itr.hasNext()){  
-		System.out.println(itr.next());  
+			System.out.println(itr.next());  
 		}  
 	}
 	public static void linedHashSetExample() {
@@ -145,7 +146,7 @@ public class ListInterface {
 		set.add("Mohammad");  
 		Iterator<String> itr=set.iterator();  
 		while(itr.hasNext()){  
-		System.out.println(itr.next());  
+			System.out.println(itr.next());  
 		}  
 	}
 	public static void treeSetExample() {
@@ -157,26 +158,42 @@ public class ListInterface {
 		//traversing elements  
 		Iterator<String> itr=set.iterator();  
 		while(itr.hasNext()){  
-		System.out.println(itr.next());  
+			System.out.println(itr.next());  
 		}  
 	}
 	public static void mapExample() {
-		 Map<String, Integer> hm
-         = new HashMap<String, Integer>();
+		Map<String, Integer> hm
+		= new HashMap<String, Integer>();
 
-     hm.put("a", new Integer(100));
-     hm.put("b", new Integer(200));
-     hm.put("c", new Integer(300));
-     hm.put("d", new Integer(400));
+		hm.put("a", new Integer(100));
+		hm.put("b", new Integer(200));
+		hm.put("c", new Integer(300));
+		hm.put("d", new Integer(400));
 
-     // Traversing through Map using for-each loop
-     for (Map.Entry<String, Integer> me :
-          hm.entrySet()) {
+		// Traversing through Map using for-each loop
+		for (Map.Entry<String, Integer> me :
+			hm.entrySet()) {
 
-         // Printing keys
-         System.out.print(me.getKey() + ":");
-         System.out.println(me.getValue());
-     }
+			// Printing keys
+			System.out.print(me.getKey() + ":");
+			System.out.println(me.getValue());
+		}
 	}
+	public static void hashMapExample() {
+		Map<String, Integer> map = new HashMap<String,Integer>();
+
+		map.put("vishal", 10);
+		map.put("sachin", 30);
+		map.put("vaibhav", 20);
+
+		// Iterating over Map
+		for (Map.Entry<String, Integer> e : map.entrySet())
+		{
+			// Printing key-value pairs
+			System.out.println(e.getKey() + " "
+					+ e.getValue());
+		}
+	}
+
 }
 
