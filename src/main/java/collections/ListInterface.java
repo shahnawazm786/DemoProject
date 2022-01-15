@@ -19,7 +19,7 @@ public class ListInterface {
 		mapExample();
 		hashMapExample();
 		liknedHashMapExample();
-
+		treeMap();
 	}
 	public static void arrayListExample() {
 		List<String> aList=new ArrayList<String>();
@@ -195,7 +195,6 @@ public class ListInterface {
 					+ e.getValue());
 		}
 	}
-
 	public static void liknedHashMapExample() {
 		Map<String, Integer> map = new LinkedHashMap<String,Integer>();
 
@@ -213,6 +212,23 @@ public class ListInterface {
 					+ e.getValue());
 		}
 	}
+	public static void treeMap() {
+		Map<String, Integer> map = new TreeMap<String,Integer>();
+
+		// Inserting custom elements in the Map
+		// using put() method
+		map.put("vishal", 10);
+		map.put("sachin", 30);
+		map.put("vaibhav", 20);
+
+		// Iterating over Map using for each loop
+		for (Map.Entry<String, Integer> e : map.entrySet())
+
+			// Printing key-value pairs
+			System.out.println(e.getKey() + " "
+					+ e.getValue());
+	}
 }
+
 
 
