@@ -13,6 +13,7 @@ public class ListInterface {
 		//List vList=new Vector();
 		//List lStatck=new Stack();
 		dQueueExample();
+		dQueueArray();
 
 	}
 	public static void arrayListExample() {
@@ -108,5 +109,15 @@ public class ListInterface {
 			System.out.println(itr2.next());  
 		}  
 	}  
+	public static void dQueueArray() {
+		Deque<String> deque = new ArrayDeque<String>();  
+		deque.add("Shahnawaz");  
+		deque.add("Mohammad");  
+		deque.add("Nawaj");  
+		//Traversing elements  
+		for (String str : deque) {  
+			System.out.println(str);  
+		}  
+	}
 }
 
