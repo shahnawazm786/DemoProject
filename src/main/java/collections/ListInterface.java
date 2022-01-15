@@ -14,6 +14,7 @@ public class ListInterface {
 		//List lStatck=new Stack();
 		dQueueExample();
 		dQueueArray();
+		hashSetExample();
 
 	}
 	public static void arrayListExample() {
@@ -119,5 +120,21 @@ public class ListInterface {
 			System.out.println(str);  
 		}  
 	}
+	public static void hashSetExample() {
+		HashSet<String> set=new HashSet<String>();  
+		set.add("Mohammad");  
+		set.add("Shah");  
+		set.add("Nawaj");  
+		set.add("Abdul Rahman");  
+		set.add("Mohammad");
+		set.add(null);
+		set.add("Mohammad1");
+		//Traversing elements  
+		Iterator<String> itr=set.iterator();  
+		while(itr.hasNext()){  
+		System.out.println(itr.next());  
+		}  
+	}
+	
 }
 
