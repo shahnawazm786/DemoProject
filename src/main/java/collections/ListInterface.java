@@ -12,8 +12,8 @@ public class ListInterface {
 		//List linkedList=new LinkedList();
 		//List vList=new Vector();
 		//List lStatck=new Stack();
-		
-		
+		dQueueExample();
+
 	}
 	public static void arrayListExample() {
 		List<String> aList=new ArrayList<String>();
@@ -51,7 +51,7 @@ public class ListInterface {
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-		
+
 	}
 	public static void listVector() {
 		List<String> vList=new Vector<String>();
@@ -74,7 +74,7 @@ public class ListInterface {
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-		
+
 		Stack<String> stack=new Stack<String>();
 		stack.push("One");
 		stack.push("Two");
@@ -85,10 +85,28 @@ public class ListInterface {
 		while(itr1.hasNext()) {
 			System.out.println(itr1.next());
 		}
-		
-		
-		
-		
-		
+
 	}
+	public static void dQueueExample() {
+		PriorityQueue<String> queue=new PriorityQueue<String>();  
+		queue.add("Arman");  
+		queue.add("Shahnawaz");  
+		queue.add("Mohammad");  
+		queue.add("Raj");  
+		System.out.println("head:"+queue.element());  
+		System.out.println("head:"+queue.peek());  
+		System.out.println("iterating the queue elements:");  
+		Iterator itr=queue.iterator();  
+		while(itr.hasNext()){  
+			System.out.println(itr.next());  
+		}  
+		queue.remove();  
+		queue.poll();  
+		System.out.println("after removing two elements:");  
+		Iterator<String> itr2=queue.iterator();  
+		while(itr2.hasNext()){  
+			System.out.println(itr2.next());  
+		}  
+	}  
 }
+
