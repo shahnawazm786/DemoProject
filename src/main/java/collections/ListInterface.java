@@ -16,6 +16,7 @@ public class ListInterface {
 		dQueueArray();
 		hashSetExample();
 		linedHashSetExample();
+		mapExample();
 
 	}
 	public static void arrayListExample() {
@@ -158,6 +159,24 @@ public class ListInterface {
 		while(itr.hasNext()){  
 		System.out.println(itr.next());  
 		}  
+	}
+	public static void mapExample() {
+		 Map<String, Integer> hm
+         = new HashMap<String, Integer>();
+
+     hm.put("a", new Integer(100));
+     hm.put("b", new Integer(200));
+     hm.put("c", new Integer(300));
+     hm.put("d", new Integer(400));
+
+     // Traversing through Map using for-each loop
+     for (Map.Entry<String, Integer> me :
+          hm.entrySet()) {
+
+         // Printing keys
+         System.out.print(me.getKey() + ":");
+         System.out.println(me.getValue());
+     }
 	}
 }
 
