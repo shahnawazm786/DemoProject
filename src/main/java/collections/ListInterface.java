@@ -15,6 +15,7 @@ public class ListInterface {
 		dQueueExample();
 		dQueueArray();
 		hashSetExample();
+		linedHashSetExample();
 
 	}
 	public static void arrayListExample() {
@@ -135,6 +136,28 @@ public class ListInterface {
 		System.out.println(itr.next());  
 		}  
 	}
-	
+	public static void linedHashSetExample() {
+		LinkedHashSet<String> set=new LinkedHashSet<String>();  
+		set.add("Mohammad");  
+		set.add("Shah");  
+		set.add("Nawaz");  
+		set.add("Mohammad");  
+		Iterator<String> itr=set.iterator();  
+		while(itr.hasNext()){  
+		System.out.println(itr.next());  
+		}  
+	}
+	public static void treeSetExample() {
+		TreeSet<String> set=new TreeSet<String>();  
+		set.add("Mohammad");  
+		set.add("Shah");  
+		set.add("Nawaj");  
+		set.add("Mohammad");  
+		//traversing elements  
+		Iterator<String> itr=set.iterator();  
+		while(itr.hasNext()){  
+		System.out.println(itr.next());  
+		}  
+	}
 }
 
