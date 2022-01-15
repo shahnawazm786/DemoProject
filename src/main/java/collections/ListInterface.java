@@ -8,9 +8,10 @@ public class ListInterface {
 		arrayList();
 		linkedListExample();
 		listVector();
+		listStack();
 		//List linkedList=new LinkedList();
 		//List vList=new Vector();
-		List lStatck=new Stack();
+		//List lStatck=new Stack();
 		
 		
 	}
@@ -62,5 +63,17 @@ public class ListInterface {
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
+	}
+	public static void listStack() {
+		List<String> lStack=new Stack<String>();
+		lStack.add("Hello");
+		lStack.add("Java");
+		lStack.add("Example");
+		lStack.add("Example");
+		Iterator itr=lStack.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
 	}
 }
