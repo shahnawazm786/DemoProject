@@ -25,12 +25,13 @@ public class DemoInterface implements IExample{
 
 	public void waitToAppearElement() {
 		// TODO Auto-generated method stub
+		System.out.println("Hello");
 		
 	}
 
 	public void waitToClickableElement() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Hello");
 	}
 
 }
