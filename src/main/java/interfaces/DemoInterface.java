@@ -28,4 +28,9 @@ public class DemoInterface implements IExample{
 		
 	}
 
+	public void waitToClickableElement() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
