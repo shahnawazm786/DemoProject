@@ -6,8 +6,10 @@ public class ListInterface {
 		// TODO Auto-generated method stub
 		arrayListExample();
 		arrayList();
-		List linkedList=new LinkedList();
-		List vList=new Vector();
+		linkedListExample();
+		listVector();
+		//List linkedList=new LinkedList();
+		//List vList=new Vector();
 		List lStatck=new Stack();
 		
 		
@@ -49,5 +51,16 @@ public class ListInterface {
 			System.out.println(itr.next());
 		}
 		
+	}
+	public static void listVector() {
+		List<String> vList=new Vector<String>();
+		vList.add("Hello");
+		vList.add("Java");
+		vList.add("Example");
+		vList.add("Practice");
+		Iterator<String> itr=vList.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 	}
 }
