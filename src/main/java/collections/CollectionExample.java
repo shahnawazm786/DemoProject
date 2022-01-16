@@ -20,6 +20,7 @@ public class CollectionExample {
 		System.out.println("Greatest number is "+gt);
 		exampleStack();
 		exampleVector();
+		linkedListExample();
 	}
 	
 	// List interface - interface 
@@ -104,6 +105,18 @@ public class CollectionExample {
 		lVec.add(300);
 		lVec.add(400);
 		Iterator<Integer> itr=lVec.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+	
+	public static void linkedListExample() {
+		List<String> lList=new LinkedList<String>();
+		lList.add("Kolkatta");
+		lList.add("Mumbai");
+		lList.add("Delhi");
+		lList.add("Patna");
+		Iterator itr=lList.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
