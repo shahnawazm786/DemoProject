@@ -2,6 +2,7 @@ package waits;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,7 +15,7 @@ public class WaitsExample {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(50,TimeUnit.SECONDS);
 		driver.get("https://askomdch.com/");
-
+		By username=By.id("");
 	}
 
 }
