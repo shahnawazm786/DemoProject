@@ -22,6 +22,7 @@ public class Demo {
 			System.out.println(c.ename);
 			System.out.println(c.salary);
 		}
-	}
+		employeeList.add(new CustomeClassListExample("Shahnawaz",122,345.900f));
+		employeeList.add({new CustomeClassListExample("Nawaj",456,4500.99f}));
 
 }
