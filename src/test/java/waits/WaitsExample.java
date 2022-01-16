@@ -27,6 +27,12 @@ public class WaitsExample {
 		By username=By.id("reg_username");
 		click(driver,accountLink,20,5);
 		sendKeys(driver,username,20,5,"test");
+		By email=By.id("reg_email");
+		sendKeys(driver,email,20,2,"test@gamil.com");
+		By password=By.id("reg_password");
+		sendKeys(driver,password,20,2,"shah@123");
+		By register=By.cssSelector(".woocommerce-Button");
+		click(driver,register,20,2);
 	}
 	public static void sendKeys(WebDriver driver,By locator,long timeout,long polling,String data){
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeout));
