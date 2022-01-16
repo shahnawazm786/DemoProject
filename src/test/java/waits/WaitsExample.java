@@ -1,6 +1,7 @@
 package waits;
 
 import java.time.Duration;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -37,12 +38,14 @@ public class WaitsExample {
 	public static void sendKeys(WebDriver driver,By locator,long timeout,long polling,String data){
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeout));
 		wait.pollingEvery(Duration.ofSeconds(polling))
+		.ignoring(NoSuchElementException.class)
 		.until(ExpectedConditions.visibilityOfElementLocated(locator)).sendKeys(data);
 		
 	}
 	public static void click(WebDriver driver,By locator,long timeout,long polling) {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeout));
 		wait.pollingEvery(Duration.ofSeconds(polling))
+		.ignoring(NoSuchElementException.class)
 		.until(ExpectedConditions.visibilityOfElementLocated(locator)).click();	
 	}
 
