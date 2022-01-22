@@ -3,11 +3,13 @@ package map;
 import java.util.HashMap;
 import java.util.Map;
 
+
 // Map key value pair data set <Key,Value>
 // Key - Uniquely indentity
 // Value - Duplicate allow
 // Null value and Null Key 
 // enterySet() - fetch record
+// not synchronized
 public class MapExample {
 
 	public static void main(String[] args) {
