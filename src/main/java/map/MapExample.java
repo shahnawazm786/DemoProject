@@ -26,6 +26,10 @@ public class MapExample {
 	//Add null value
 	data.put("Location", null);
 	data.put("Pin", null);
+	
+	// Add duplicate key
+	data.put("Phone", "123456789");
+	data.put("Phone", "9999999999");
 	//fetch data
 	for(Map.Entry<String,String> m:data.entrySet()) {
 		System.out.println("Key -> "+m.getKey()+"    Value ->"+m.getValue() ); // Show key
