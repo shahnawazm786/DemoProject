@@ -5,6 +5,7 @@ import java.util.*;
 //Value - Duplicate allow
 //Null value and Null Key 
 //enterySet() - fetch record
+// synchronized
 
 public class HashTableExample {
 
