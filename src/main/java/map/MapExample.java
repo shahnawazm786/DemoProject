@@ -3,7 +3,7 @@ package map;
 import java.util.HashMap;
 import java.util.Map;
 
-// Map key value pair data set
+// Map key value pair data set <Key,Value>
 // Key - Uniquely indentity
 // Value - Duplicate allow
 // Null value and Null Key 
@@ -20,6 +20,11 @@ public class MapExample {
 	data.put("FirstName", "Mohmmad");
 	data.put("LastName","Shahnawaz");
 	data.put("Email", "kazonline@gmail.com");
+	// Add Null key into hashMap
+	data.put(null, "Delhi");
+	data.put(null, "Shaheen Bagh");
+	
+	
 	//fetch data
 	for(Map.Entry<String,String> m:data.entrySet()) {
 		System.out.println("Key -> "+m.getKey()+"    Value ->"+m.getValue() ); // Show key
