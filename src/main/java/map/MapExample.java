@@ -20,11 +20,12 @@ public class MapExample {
 	data.put("FirstName", "Mohmmad");
 	data.put("LastName","Shahnawaz");
 	data.put("Email", "kazonline@gmail.com");
-	// Add Null key into hashMap
+	// Add null key into hashMap
 	data.put(null, "Delhi");
 	data.put(null, "Shaheen Bagh");
-	
-	
+	//Add null value
+	data.put("Location", null);
+	data.put("Pin", null);
 	//fetch data
 	for(Map.Entry<String,String> m:data.entrySet()) {
 		System.out.println("Key -> "+m.getKey()+"    Value ->"+m.getValue() ); // Show key
