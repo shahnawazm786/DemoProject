@@ -30,6 +30,10 @@ public class MapExample {
 	// Add duplicate key
 	data.put("Phone", "123456789");
 	data.put("Phone", "9999999999");
+	
+	// Add duplicate value
+	data.put("Mobile", "9999");
+	data.put("Mobile1", "9999");
 	//fetch data
 	for(Map.Entry<String,String> m:data.entrySet()) {
 		System.out.println("Key -> "+m.getKey()+"    Value ->"+m.getValue() ); // Show key
