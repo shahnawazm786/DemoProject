@@ -17,7 +17,7 @@ public class RelativeExample {
 		driver.get("https://askomdch.com/account/");
 		By uname=RelativeLocator.with(By.tagName("input")).above(By.id("reg_email"));
 		driver.findElement(uname).sendKeys("shahnawaz");
-		By email=RelativeLocator.with(By.id("input")).below(By.tagName("reg_username"));
+		By email=RelativeLocator.with(By.tagName("input")).below(By.id("reg_username"));
 		driver.findElement(email).sendKeys("test1@gmail.com");
 		//driver.quit();
 		
