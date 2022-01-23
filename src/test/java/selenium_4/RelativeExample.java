@@ -15,10 +15,10 @@ public class RelativeExample {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://askomdch.com/account/");
-		By uname=RelativeLocator.with(By.tagName("input")).above(By.id("reg_email"));
-		driver.findElement(uname).sendKeys("shahnawaz");
+		//By uname=RelativeLocator.with(By.tagName("input")).above(By.id("reg_email"));
+		//driver.findElement(uname).sendKeys("shahnawaz");
 		By email=RelativeLocator.with(By.id("reg_username")).below(By.tagName("input"));
-		
+		driver.findElement(email).sendKeys("test1@gmail.com");
 		//driver.quit();
 		
 		
