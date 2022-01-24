@@ -36,5 +36,8 @@ public class WaitExample {
 		// Print the first result
 		System.out.println(firstResult.getText());	
 	}
+	public static void closeApps() {
+		driver.quit();
+	}
 
 }
