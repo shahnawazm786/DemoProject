@@ -15,7 +15,11 @@ public class WaitExample {
 	static WebDriver driver;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		// Run the application
+		startApps();
+		findingElement();
+		explicitWaitExample();
+		closeApps();
 	}
 	public static void startApps() {
 	// set the property
