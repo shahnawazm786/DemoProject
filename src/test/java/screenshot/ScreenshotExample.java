@@ -12,9 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ScreenshotExample {
 	static WebDriver driver;
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
+		startApps();
+		takeScreenshot();
+		closeApps();
 	}
 	public static void startApps() {
 		// set the property
@@ -27,6 +29,9 @@ public class ScreenshotExample {
 		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrFile, new File("src/test/resources/screenshot/image1.png"));
 	}
-	
+	static void closeApps() {
+		driver.quit();
+	}
+}	
 
-}
+
