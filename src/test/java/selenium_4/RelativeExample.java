@@ -20,9 +20,7 @@ public class RelativeExample {
 		By email=RelativeLocator.with(By.tagName("input")).below(By.id("reg_username"));
 		driver.findElement(email).sendKeys("test1@gmail.com");
 		driver.quit();
-		//driver.close();
-		
-		
+	
 	}
 
 }
