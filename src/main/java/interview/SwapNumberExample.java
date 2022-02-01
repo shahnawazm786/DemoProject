@@ -18,5 +18,12 @@ public class SwapNumberExample {
 		System.out.println(" Value of Num1 is ->"+num1);
 		System.out.println(" Value of Num2 is ->"+num2);
 	}
+	/**
+	 *  Output
+	 *  Value of Num1 is ->100
+ 		Value of Num2 is ->200
+ 		Value of Num1 is ->200
+ 		Value of Num2 is ->100
+	 */
 
 }
