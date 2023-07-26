@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d15e911-6400-45c7-ad5d-df1aed8b58e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/EBrowserName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/ReadingConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/awsome/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/awsome/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/awesome/add_to_cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/awesome/example_data_table.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/awesome/feature_one_file.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/awesome/feature_two_file.feature" afterDir="false" />
+    <list default="true" id="7d15e911-6400-45c7-ad5d-df1aed8b58e9" name="Changes" comment="Factory Classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/ReadPropertyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/ReadingConfigFile.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,20 @@
       <recent name="C:\IntelliJWorkspace\CucumberBDD\src\test\java\awsome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.utility.Demo" />
+      <module name="CucumberBDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All Features in: CucumberBDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -160,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: add_to_cart" />
         <item itemvalue="Cucumber Java.Scenario: Add a item into the item cart" />
@@ -176,6 +180,119 @@
       <option name="presentableId" value="Default" />
       <updated>1681230138202</updated>
     </task>
+    <task id="LOCAL-00001" summary="Factory Classes">
+      <created>1688147227332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147227332</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Factory Classes">
+      <created>1688147245035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147245035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Factory Classes">
+      <created>1688147252832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147252832</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Factory Classes">
+      <created>1688147265381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147265381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Factory Classes">
+      <created>1688147271847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147271847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Factory Classes">
+      <created>1688147278497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147278497</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Factory Classes">
+      <created>1688147284896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147284896</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Factory Classes">
+      <created>1688147294728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147294728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Factory Classes">
+      <created>1688147327631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147327631</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Factory Classes">
+      <created>1688147333272</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147333272</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Factory Classes">
+      <created>1688147341470</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147341470</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Factory Classes">
+      <created>1688147348608</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147348608</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Factory Classes">
+      <created>1688147354064</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147354064</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Factory Classes">
+      <created>1688147360620</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147360620</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Factory Classes">
+      <created>1688147366874</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147366874</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Factory Classes">
+      <created>1688147378199</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688147378199</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +305,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Factory Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
